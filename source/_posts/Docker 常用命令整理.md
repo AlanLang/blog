@@ -6,7 +6,7 @@ abbrlink: 16101
 date: 2020-09-04 13:53:23
 ---
 
-[命令大全](https://www.runoob.com/docker/docker-command-manual.html)
+[命令大全查看](https://www.runoob.com/docker/docker-command-manual.html)
 
 ### 常用命令
 ```
