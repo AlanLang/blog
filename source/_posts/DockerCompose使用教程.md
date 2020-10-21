@@ -1,6 +1,6 @@
 ---
 title: DockerCompose使用教程
-tags: 教程
+tags: docker
 categories: 教程
 abbrlink: 60376
 date: 2020-09-01 13:53:23
