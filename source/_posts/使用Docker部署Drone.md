@@ -10,6 +10,8 @@ date: 2020-10-21 13:53:23
 ![](https://alan-picpack.oss-cn-hangzhou.aliyuncs.com/github_application_create.png)
 接下来查看这个应用的详情，记录 Client ID 和 Client Secret，之后配置 Drone 会用到。
 
+<!-- more -->
+
 ## 配置 Drone
 我们通过使用`Docker Compose`来启动 Drone，编写`docker-compose.yml`文件。
 ```yml
