@@ -56,4 +56,7 @@ docker system
       docker system events       #显示容器的实时事件
       docker system info         #显示系统信息
       docker system prune        #清理文件
+docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker stop #停止状态为Exited的容器
+docker ps -a | grep "Exited" | awk '{print $1 }'|xargs docker rm #删除状态为Exited的容器
+docker images|grep none|awk '{print $3 }'|xargs docker rmi 删除名称为<none>的镜像
 ```
