@@ -41,6 +41,33 @@ date: 2020-06-11 09:49:23
 
 注意 关于CSM看网上教程都说要关闭它，但是我关闭了之后有一定概率引导失败，所以就把它打开了
 
+## 引导盘制作
+下载[gibMacOS](https://github.com/corpnewt/gibMacOS)
+### 下载恢复镜像
+win下运行`gibMacOS.bat`， mac下运行`gibMacOS.command`, mac下如果遇到权限问题，需要先执行一下下面命令:
+```
+chmod +x /Users/alan/Downloads/gibMacOS-master/gibMacOS.command
+```
+此时会展示一个列表
+![20210420111333@2x](https://alan-picpack.oss-cn-hangzhou.aliyuncs.com/uPic/20210420/20210420111333@2x.png)
+按`r`回车进入恢复模式
+然后输入需要下载的制定版本的恢复镜像序号并回车完成下载。（需要选择后面带FULL Install的）
+下载完成之后关闭窗口即可。
+### 制作U盘
+win下运行`MakeInstall.bat`
+此时会列出当前连接的USB，输入前面的序号+O（如：1O）并回车完成OpenCore的安装。
+选择y继续
+输入上一步的恢复镜像的文件地址，回车开始制作。
+
+## 硬盘分区
+### 删除所有分区
+进入PE打开磁盘工具
+删除所有分区并保存更改
+### 格式化硬盘
+进入MAC磁盘工具
+点抹掉，选择APFS，名称随意(MacOS)
+然后开始安装系统。
+
 ## config.plist
 ### ACPI
 #### ACPI—–Add
