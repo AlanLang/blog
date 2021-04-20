@@ -54,7 +54,7 @@ chmod +x /Users/alan/Downloads/gibMacOS-master/gibMacOS.command
 然后输入需要下载的制定版本的恢复镜像序号并回车完成下载。（需要选择后面带FULL Install的）
 下载完成之后关闭窗口即可。
 ### 制作U盘
-win下运行`MakeInstall.bat`
+win下运行`MakeInstall.bat`，mac下运行`BuildmacOSInstallApp.command`
 此时会列出当前连接的USB，输入前面的序号+O（如：1O）并回车完成OpenCore的安装。
 选择y继续
 输入上一步的恢复镜像的文件地址，回车开始制作。
